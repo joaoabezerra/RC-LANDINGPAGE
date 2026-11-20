@@ -1,2 +1,2 @@
 # RC-LANDINGPAGE
-landing page feito com HTML/CSS para uma atividade do rocketseat.
+sites feito com HTML/CSS para atividades do rocketseat.
