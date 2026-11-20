@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QUICKLIST</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script1.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <button class="btn-back">RETORNAR</button>
+            <h1>Lista de Compras</h1>
+            <div class="add-item">
+            <input
+                type="text"
+                id="item.input"
+                placeholder="Adicione um novo item"
+            > <button id="add.btn">
+                Adicionar item
+            </button>
+            <ul id="shopping.list">
+                <li>
+                    <div class="item-content">
+                    <input type="checkbox">
+                    <span>Pão</span>
+                        <button class="delete-btn">
+                            🗑️
+                        </button>
+                    <div class="item-content">
+                    <input type="checkbox">
+                    <span>Queijo</span>
+                        <button class="delete-btn">
+                            🗑️
+                        </button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="notification" class="notification">
+        Item removido da lista.
+    </div>
+    </body>
+</html>
